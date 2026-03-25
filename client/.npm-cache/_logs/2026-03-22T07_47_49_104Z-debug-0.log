@@ -1,0 +1,799 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.18.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\.npmrc
+5 silly config load:file:C:\Users\anmol\.npmrc
+6 silly config load:file:C:\Users\anmol\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install tailwindcss @tailwindcss/vite
+8 verbose argv "install" "--save-dev" "tailwindcss" "@tailwindcss/vite" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\.npm-cache\_logs\2026-03-22T07_47_49_104Z-
+10 verbose logfile C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\.npm-cache\_logs\2026-03-22T07_47_49_104Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest tailwindcss@*
+15 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+17 http fetch GET 200 https://registry.npmjs.org/tailwindcss 2649ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:undefined disposed:false
+19 silly fetch manifest @tailwindcss/vite@*
+20 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fvite cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fvite 457ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fvite set size:undefined disposed:false
+23 silly fetch manifest vite@^6.1.0
+24 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/vite 399ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/vite set size:38757149 disposed:false
+27 silly fetch manifest @types/node@^18.0.0 || ^20.0.0 || >=22.0.0
+28 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 188ms (cache revalidated)
+30 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:10939971 disposed:false
+31 silly fetch manifest jiti@>=1.21.0
+32 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/jiti 124ms (cache revalidated)
+34 silly packumentCache full:https://registry.npmjs.org/jiti set size:382310 disposed:false
+35 silly fetch manifest less@*
+36 silly packumentCache full:https://registry.npmjs.org/less cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/less 67ms (cache revalidated)
+38 silly packumentCache full:https://registry.npmjs.org/less set size:461684 disposed:false
+39 silly fetch manifest lightningcss@^1.21.0
+40 silly packumentCache full:https://registry.npmjs.org/lightningcss cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/lightningcss 82ms (cache revalidated)
+42 silly packumentCache full:https://registry.npmjs.org/lightningcss set size:186753 disposed:false
+43 silly fetch manifest sass@*
+44 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/sass 68ms (cache revalidated)
+46 silly packumentCache full:https://registry.npmjs.org/sass set size:724154 disposed:false
+47 silly fetch manifest sass-embedded@*
+48 silly packumentCache full:https://registry.npmjs.org/sass-embedded cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/sass-embedded 100ms (cache revalidated)
+50 silly packumentCache full:https://registry.npmjs.org/sass-embedded set size:411496 disposed:false
+51 silly fetch manifest stylus@*
+52 silly packumentCache full:https://registry.npmjs.org/stylus cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/stylus 68ms (cache revalidated)
+54 silly packumentCache full:https://registry.npmjs.org/stylus set size:286766 disposed:false
+55 silly fetch manifest sugarss@*
+56 silly packumentCache full:https://registry.npmjs.org/sugarss cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/sugarss 57ms (cache revalidated)
+58 silly packumentCache full:https://registry.npmjs.org/sugarss set size:44975 disposed:false
+59 silly fetch manifest postcss@^8.3.3
+60 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/postcss 57ms (cache revalidated)
+62 silly packumentCache full:https://registry.npmjs.org/postcss set size:702266 disposed:false
+63 silly fetch manifest terser@^5.16.0
+64 silly packumentCache full:https://registry.npmjs.org/terser cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/terser 59ms (cache revalidated)
+66 silly packumentCache full:https://registry.npmjs.org/terser set size:789927 disposed:false
+67 silly fetch manifest tsx@^4.8.1
+68 silly packumentCache full:https://registry.npmjs.org/tsx cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/tsx 83ms (cache revalidated)
+70 silly packumentCache full:https://registry.npmjs.org/tsx set size:289592 disposed:false
+71 silly fetch manifest yaml@^2.4.2
+72 silly packumentCache full:https://registry.npmjs.org/yaml cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/yaml 78ms (cache revalidated)
+74 silly packumentCache full:https://registry.npmjs.org/yaml set size:375230 disposed:false
+75 silly placeDep ROOT @tailwindcss/vite@4.2.2 OK for: portfolio-client@1.0.0 want: *
+76 silly placeDep ROOT tailwindcss@4.2.2 OK for: portfolio-client@1.0.0 want: *
+77 silly fetch manifest tailwindcss@4.2.2
+78 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+79 silly fetch manifest @tailwindcss/node@4.2.2
+80 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fnode cache-miss
+81 silly fetch manifest @tailwindcss/oxide@4.2.2
+82 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide cache-miss
+83 http cache https://registry.npmjs.org/tailwindcss 98ms (cache hit)
+84 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:10288447 disposed:false
+85 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fnode 1341ms (cache miss)
+86 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fnode set size:undefined disposed:false
+87 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide 1948ms (cache miss)
+88 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide set size:undefined disposed:false
+89 silly placeDep ROOT @tailwindcss/node@4.2.2 OK for: @tailwindcss/vite@4.2.2 want: 4.2.2
+90 silly placeDep ROOT @tailwindcss/oxide@4.2.2 OK for: @tailwindcss/vite@4.2.2 want: 4.2.2
+91 silly fetch manifest jiti@^2.6.1
+92 silly packumentCache full:https://registry.npmjs.org/jiti cache-hit
+93 silly fetch manifest lightningcss@1.32.0
+94 silly packumentCache full:https://registry.npmjs.org/lightningcss cache-hit
+95 silly fetch manifest magic-string@^0.30.21
+96 silly packumentCache full:https://registry.npmjs.org/magic-string cache-miss
+97 silly fetch manifest enhanced-resolve@^5.19.0
+98 silly packumentCache full:https://registry.npmjs.org/enhanced-resolve cache-miss
+99 silly fetch manifest @tailwindcss/oxide-darwin-x64@4.2.2
+100 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/enhanced-resolve 98ms (cache miss)
+102 silly packumentCache full:https://registry.npmjs.org/enhanced-resolve set size:undefined disposed:false
+103 silly fetch manifest @tailwindcss/oxide-freebsd-x64@4.2.2
+104 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/magic-string 251ms (cache miss)
+106 silly packumentCache full:https://registry.npmjs.org/magic-string set size:undefined disposed:false
+107 silly fetch manifest @tailwindcss/oxide-wasm32-wasi@4.2.2
+108 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi 501ms (cache miss)
+110 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi set size:undefined disposed:false
+111 silly fetch manifest @tailwindcss/oxide-darwin-arm64@4.2.2
+112 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 972ms (cache miss)
+114 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 set size:undefined disposed:false
+115 silly fetch manifest @tailwindcss/oxide-android-arm64@4.2.2
+116 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 1389ms (cache miss)
+118 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 set size:undefined disposed:false
+119 silly fetch manifest @tailwindcss/oxide-linux-x64-gnu@4.2.2
+120 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu cache-miss
+121 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 1271ms (cache miss)
+122 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 set size:undefined disposed:false
+123 silly fetch manifest @tailwindcss/oxide-linux-x64-musl@4.2.2
+124 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 1652ms (cache miss)
+126 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 set size:undefined disposed:false
+127 silly fetch manifest @tailwindcss/oxide-win32-x64-msvc@4.2.2
+128 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc cache-miss
+129 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu 1525ms (cache miss)
+130 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu set size:undefined disposed:false
+131 silly fetch manifest @tailwindcss/oxide-linux-arm64-gnu@4.2.2
+132 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc 965ms (cache miss)
+134 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc set size:undefined disposed:false
+135 silly fetch manifest @tailwindcss/oxide-linux-arm64-musl@4.2.2
+136 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl 1319ms (cache miss)
+138 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl set size:undefined disposed:false
+139 silly fetch manifest @tailwindcss/oxide-win32-arm64-msvc@4.2.2
+140 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc cache-miss
+141 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu 967ms (cache miss)
+142 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu set size:undefined disposed:false
+143 silly fetch manifest @tailwindcss/oxide-linux-arm-gnueabihf@4.2.2
+144 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf cache-miss
+145 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl 1014ms (cache miss)
+146 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl set size:undefined disposed:false
+147 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc 1056ms (cache miss)
+148 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc set size:undefined disposed:false
+149 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf 1020ms (cache miss)
+150 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf set size:undefined disposed:false
+151 silly placeDep ROOT enhanced-resolve@5.20.1 OK for: @tailwindcss/node@4.2.2 want: ^5.19.0
+152 silly placeDep ROOT jiti@2.6.1 OK for: @tailwindcss/node@4.2.2 want: ^2.6.1
+153 silly placeDep ROOT lightningcss@1.32.0 OK for: @tailwindcss/node@4.2.2 want: 1.32.0
+154 silly placeDep ROOT magic-string@0.30.21 OK for: @tailwindcss/node@4.2.2 want: ^0.30.21
+155 silly fetch manifest graceful-fs@^4.2.4
+156 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+157 silly fetch manifest tapable@^2.3.0
+158 silly packumentCache full:https://registry.npmjs.org/tapable cache-miss
+159 silly fetch manifest detect-libc@^2.0.3
+160 silly packumentCache full:https://registry.npmjs.org/detect-libc cache-miss
+161 http fetch GET 200 https://registry.npmjs.org/graceful-fs 67ms (cache miss)
+162 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:undefined disposed:false
+163 silly fetch manifest lightningcss-darwin-x64@1.32.0
+164 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 cache-miss
+165 http fetch GET 200 https://registry.npmjs.org/detect-libc 336ms (cache miss)
+166 silly packumentCache full:https://registry.npmjs.org/detect-libc set size:undefined disposed:false
+167 silly fetch manifest lightningcss-linux-x64-gnu@1.32.0
+168 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-x64 318ms (cache miss)
+170 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 set size:undefined disposed:false
+171 silly fetch manifest lightningcss-win32-x64-msvc@1.32.0
+172 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-x64-msvc cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-gnu 58ms (cache miss)
+174 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu set size:undefined disposed:false
+175 silly fetch manifest lightningcss-win32-arm64-msvc@1.32.0
+176 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-x64-msvc 58ms (cache miss)
+178 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-x64-msvc set size:undefined disposed:false
+179 silly fetch manifest lightningcss-darwin-arm64@1.32.0
+180 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 cache-miss
+181 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-arm64-msvc 64ms (cache miss)
+182 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc set size:undefined disposed:false
+183 silly fetch manifest lightningcss-linux-arm64-gnu@1.32.0
+184 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu cache-miss
+185 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-arm64 63ms (cache miss)
+186 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 set size:undefined disposed:false
+187 silly fetch manifest lightningcss-linux-arm-gnueabihf@1.32.0
+188 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf cache-miss
+189 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-gnu 55ms (cache miss)
+190 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu set size:undefined disposed:false
+191 silly fetch manifest lightningcss-linux-arm64-musl@1.32.0
+192 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl cache-miss
+193 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf 53ms (cache miss)
+194 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf set size:undefined disposed:false
+195 silly fetch manifest lightningcss-linux-x64-musl@1.32.0
+196 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl cache-miss
+197 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-musl 74ms (cache miss)
+198 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl set size:undefined disposed:false
+199 silly fetch manifest lightningcss-freebsd-x64@1.32.0
+200 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 cache-miss
+201 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-musl 66ms (cache miss)
+202 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl set size:undefined disposed:false
+203 silly fetch manifest lightningcss-android-arm64@1.32.0
+204 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 cache-miss
+205 http fetch GET 200 https://registry.npmjs.org/lightningcss-freebsd-x64 53ms (cache miss)
+206 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 set size:undefined disposed:false
+207 http fetch GET 200 https://registry.npmjs.org/lightningcss-android-arm64 52ms (cache miss)
+208 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 set size:undefined disposed:false
+209 http fetch GET 200 https://registry.npmjs.org/tapable 889ms (cache miss)
+210 silly packumentCache full:https://registry.npmjs.org/tapable set size:undefined disposed:false
+211 silly placeDep ROOT @tailwindcss/oxide-android-arm64@4.2.2 OK for: @tailwindcss/oxide@4.2.2 want: 4.2.2
+212 silly placeDep ROOT @tailwindcss/oxide-darwin-arm64@4.2.2 OK for: @tailwindcss/oxide@4.2.2 want: 4.2.2
+213 silly placeDep ROOT @tailwindcss/oxide-darwin-x64@4.2.2 OK for: @tailwindcss/oxide@4.2.2 want: 4.2.2
+214 silly placeDep ROOT @tailwindcss/oxide-freebsd-x64@4.2.2 OK for: @tailwindcss/oxide@4.2.2 want: 4.2.2
+215 silly placeDep ROOT @tailwindcss/oxide-linux-arm-gnueabihf@4.2.2 OK for: @tailwindcss/oxide@4.2.2 want: 4.2.2
+216 silly placeDep ROOT @tailwindcss/oxide-linux-arm64-gnu@4.2.2 OK for: @tailwindcss/oxide@4.2.2 want: 4.2.2
+217 silly placeDep ROOT @tailwindcss/oxide-linux-arm64-musl@4.2.2 OK for: @tailwindcss/oxide@4.2.2 want: 4.2.2
+218 silly placeDep ROOT @tailwindcss/oxide-linux-x64-gnu@4.2.2 OK for: @tailwindcss/oxide@4.2.2 want: 4.2.2
+219 silly placeDep ROOT @tailwindcss/oxide-linux-x64-musl@4.2.2 OK for: @tailwindcss/oxide@4.2.2 want: 4.2.2
+220 silly placeDep ROOT @tailwindcss/oxide-wasm32-wasi@4.2.2 OK for: @tailwindcss/oxide@4.2.2 want: 4.2.2
+221 silly placeDep ROOT @tailwindcss/oxide-win32-arm64-msvc@4.2.2 OK for: @tailwindcss/oxide@4.2.2 want: 4.2.2
+222 silly placeDep ROOT @tailwindcss/oxide-win32-x64-msvc@4.2.2 OK for: @tailwindcss/oxide@4.2.2 want: 4.2.2
+223 silly placeDep ROOT graceful-fs@4.2.11 OK for: enhanced-resolve@5.20.1 want: ^4.2.4
+224 silly placeDep ROOT tapable@2.3.0 OK for: enhanced-resolve@5.20.1 want: ^2.3.0
+225 silly placeDep ROOT detect-libc@2.1.2 OK for: lightningcss@1.32.0 want: ^2.0.3
+226 silly placeDep ROOT lightningcss-android-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+227 silly placeDep ROOT lightningcss-darwin-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+228 silly placeDep ROOT lightningcss-darwin-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+229 silly placeDep ROOT lightningcss-freebsd-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+230 silly placeDep ROOT lightningcss-linux-arm-gnueabihf@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+231 silly placeDep ROOT lightningcss-linux-arm64-gnu@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+232 silly placeDep ROOT lightningcss-linux-arm64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+233 silly placeDep ROOT lightningcss-linux-x64-gnu@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+234 silly placeDep ROOT lightningcss-linux-x64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+235 silly placeDep ROOT lightningcss-win32-arm64-msvc@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+236 silly placeDep ROOT lightningcss-win32-x64-msvc@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+237 silly reify moves {}
+238 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@tailwindcss\oxide-wasm32-wasi
+239 silly reify mark deleted [
+239 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+239 silly reify ]
+240 silly audit bulk request {
+240 silly audit   '@babel/code-frame': [ '7.29.0' ],
+240 silly audit   '@babel/compat-data': [ '7.29.0' ],
+240 silly audit   '@babel/core': [ '7.29.0' ],
+240 silly audit   '@babel/generator': [ '7.29.1' ],
+240 silly audit   '@babel/helper-compilation-targets': [ '7.28.6' ],
+240 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+240 silly audit   '@babel/helper-module-imports': [ '7.28.6' ],
+240 silly audit   '@babel/helper-module-transforms': [ '7.28.6' ],
+240 silly audit   '@babel/helper-plugin-utils': [ '7.28.6' ],
+240 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+240 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+240 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+240 silly audit   '@babel/helpers': [ '7.29.2' ],
+240 silly audit   '@babel/parser': [ '7.29.2' ],
+240 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.27.1' ],
+240 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.27.1' ],
+240 silly audit   '@babel/template': [ '7.28.6' ],
+240 silly audit   '@babel/traverse': [ '7.29.0' ],
+240 silly audit   '@babel/types': [ '7.29.0' ],
+240 silly audit   '@esbuild/aix-ppc64': [ '0.25.12' ],
+240 silly audit   '@esbuild/android-arm': [ '0.25.12' ],
+240 silly audit   '@esbuild/android-arm64': [ '0.25.12' ],
+240 silly audit   '@esbuild/android-x64': [ '0.25.12' ],
+240 silly audit   '@esbuild/darwin-arm64': [ '0.25.12' ],
+240 silly audit   '@esbuild/darwin-x64': [ '0.25.12' ],
+240 silly audit   '@esbuild/freebsd-arm64': [ '0.25.12' ],
+240 silly audit   '@esbuild/freebsd-x64': [ '0.25.12' ],
+240 silly audit   '@esbuild/linux-arm': [ '0.25.12' ],
+240 silly audit   '@esbuild/linux-arm64': [ '0.25.12' ],
+240 silly audit   '@esbuild/linux-ia32': [ '0.25.12' ],
+240 silly audit   '@esbuild/linux-loong64': [ '0.25.12' ],
+240 silly audit   '@esbuild/linux-mips64el': [ '0.25.12' ],
+240 silly audit   '@esbuild/linux-ppc64': [ '0.25.12' ],
+240 silly audit   '@esbuild/linux-riscv64': [ '0.25.12' ],
+240 silly audit   '@esbuild/linux-s390x': [ '0.25.12' ],
+240 silly audit   '@esbuild/linux-x64': [ '0.25.12' ],
+240 silly audit   '@esbuild/netbsd-arm64': [ '0.25.12' ],
+240 silly audit   '@esbuild/netbsd-x64': [ '0.25.12' ],
+240 silly audit   '@esbuild/openbsd-arm64': [ '0.25.12' ],
+240 silly audit   '@esbuild/openbsd-x64': [ '0.25.12' ],
+240 silly audit   '@esbuild/openharmony-arm64': [ '0.25.12' ],
+240 silly audit   '@esbuild/sunos-x64': [ '0.25.12' ],
+240 silly audit   '@esbuild/win32-arm64': [ '0.25.12' ],
+240 silly audit   '@esbuild/win32-ia32': [ '0.25.12' ],
+240 silly audit   '@esbuild/win32-x64': [ '0.25.12' ],
+240 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+240 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+240 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+240 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+240 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+240 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+240 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-android-arm64': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-darwin-arm64': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-darwin-x64': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-freebsd-x64': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-openbsd-x64': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.60.0' ],
+240 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.60.0' ],
+240 silly audit   '@types/babel__core': [ '7.20.5' ],
+240 silly audit   '@types/babel__generator': [ '7.27.0' ],
+240 silly audit   '@types/babel__template': [ '7.4.4' ],
+240 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+240 silly audit   '@types/estree': [ '1.0.8' ],
+240 silly audit   '@vitejs/plugin-react': [ '4.7.0' ],
+240 silly audit   'baseline-browser-mapping': [ '2.10.10' ],
+240 silly audit   browserslist: [ '4.28.1' ],
+240 silly audit   'caniuse-lite': [ '1.0.30001780' ],
+240 silly audit   'convert-source-map': [ '2.0.0' ],
+240 silly audit   debug: [ '4.4.3' ],
+240 silly audit   'electron-to-chromium': [ '1.5.321' ],
+240 silly audit   esbuild: [ '0.25.12' ],
+240 silly audit   escalade: [ '3.2.0' ],
+240 silly audit   fdir: [ '6.5.0' ],
+240 silly audit   fsevents: [ '2.3.3' ],
+240 silly audit   gensync: [ '1.0.0-beta.2' ],
+240 silly audit   'js-tokens': [ '4.0.0' ],
+240 silly audit   jsesc: [ '3.1.0' ],
+240 silly audit   json5: [ '2.2.3' ],
+240 silly audit   'lru-cache': [ '5.1.1' ],
+240 silly audit   ms: [ '2.1.3' ],
+240 silly audit   nanoid: [ '3.3.11' ],
+240 silly audit   'node-releases': [ '2.0.36' ],
+240 silly audit   picocolors: [ '1.1.1' ],
+240 silly audit   picomatch: [ '4.0.3' ],
+240 silly audit   postcss: [ '8.5.8' ],
+240 silly audit   react: [ '19.2.4' ],
+240 silly audit   'react-dom': [ '19.2.4' ],
+240 silly audit   'react-icons': [ '5.6.0' ],
+240 silly audit   'react-refresh': [ '0.17.0' ],
+240 silly audit   rollup: [ '4.60.0' ],
+240 silly audit   scheduler: [ '0.27.0' ],
+240 silly audit   semver: [ '6.3.1' ],
+240 silly audit   'source-map-js': [ '1.2.1' ],
+240 silly audit   tinyglobby: [ '0.2.15' ],
+240 silly audit   'update-browserslist-db': [ '1.2.3' ],
+240 silly audit   vite: [ '6.4.1' ],
+240 silly audit   yallist: [ '3.1.1' ],
+240 silly audit   '@tailwindcss/vite': [ '4.2.2' ],
+240 silly audit   tailwindcss: [ '4.2.2' ],
+240 silly audit   '@tailwindcss/node': [ '4.2.2' ],
+240 silly audit   '@tailwindcss/oxide': [ '4.2.2' ],
+240 silly audit   'enhanced-resolve': [ '5.20.1' ],
+240 silly audit   jiti: [ '2.6.1' ],
+240 silly audit   lightningcss: [ '1.32.0' ],
+240 silly audit   'magic-string': [ '0.30.21' ],
+240 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.2.2' ],
+240 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.2.2' ],
+240 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.2.2' ],
+240 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.2.2' ],
+240 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.2.2' ],
+240 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.2.2' ],
+240 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.2.2' ],
+240 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.2.2' ],
+240 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.2.2' ],
+240 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.2.2' ],
+240 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.2.2' ],
+240 silly audit   'graceful-fs': [ '4.2.11' ],
+240 silly audit   tapable: [ '2.3.0' ],
+240 silly audit   'detect-libc': [ '2.1.2' ],
+240 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+240 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+240 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+240 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+240 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+240 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+240 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+240 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+240 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+240 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+240 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+240 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.2.2' ]
+240 silly audit }
+241 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\lightningcss-win32-arm64-msvc
+242 silly reify mark deleted [
+242 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\lightningcss-win32-arm64-msvc'
+242 silly reify ]
+243 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\lightningcss-linux-x64-musl
+244 silly reify mark deleted [
+244 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\lightningcss-linux-x64-musl'
+244 silly reify ]
+245 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\lightningcss-linux-x64-gnu
+246 silly reify mark deleted [
+246 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\lightningcss-linux-x64-gnu'
+246 silly reify ]
+247 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\lightningcss-linux-arm64-musl
+248 silly reify mark deleted [
+248 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\lightningcss-linux-arm64-musl'
+248 silly reify ]
+249 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\lightningcss-linux-arm64-gnu
+250 silly reify mark deleted [
+250 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\lightningcss-linux-arm64-gnu'
+250 silly reify ]
+251 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\lightningcss-linux-arm-gnueabihf
+252 silly reify mark deleted [
+252 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\lightningcss-linux-arm-gnueabihf'
+252 silly reify ]
+253 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\lightningcss-freebsd-x64
+254 silly reify mark deleted [
+254 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\lightningcss-freebsd-x64'
+254 silly reify ]
+255 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\lightningcss-darwin-x64
+256 silly reify mark deleted [
+256 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\lightningcss-darwin-x64'
+256 silly reify ]
+257 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\lightningcss-darwin-arm64
+258 silly reify mark deleted [
+258 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\lightningcss-darwin-arm64'
+258 silly reify ]
+259 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\lightningcss-android-arm64
+260 silly reify mark deleted [
+260 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\lightningcss-android-arm64'
+260 silly reify ]
+261 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+262 silly reify mark deleted [
+262 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+262 silly reify ]
+263 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@tailwindcss\oxide-linux-x64-musl
+264 silly reify mark deleted [
+264 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+264 silly reify ]
+265 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@tailwindcss\oxide-linux-x64-gnu
+266 silly reify mark deleted [
+266 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+266 silly reify ]
+267 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@tailwindcss\oxide-linux-arm64-musl
+268 silly reify mark deleted [
+268 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+268 silly reify ]
+269 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+270 silly reify mark deleted [
+270 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+270 silly reify ]
+271 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+272 silly reify mark deleted [
+272 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+272 silly reify ]
+273 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@tailwindcss\oxide-freebsd-x64
+274 silly reify mark deleted [
+274 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+274 silly reify ]
+275 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@tailwindcss\oxide-darwin-x64
+276 silly reify mark deleted [
+276 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+276 silly reify ]
+277 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@tailwindcss\oxide-darwin-arm64
+278 silly reify mark deleted [
+278 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+278 silly reify ]
+279 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@tailwindcss\oxide-android-arm64
+280 silly reify mark deleted [
+280 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@tailwindcss\\oxide-android-arm64'
+280 silly reify ]
+281 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\fsevents
+282 silly reify mark deleted [
+282 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\fsevents'
+282 silly reify ]
+283 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-win32-ia32-msvc
+284 silly reify mark deleted [
+284 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+284 silly reify ]
+285 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-win32-arm64-msvc
+286 silly reify mark deleted [
+286 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+286 silly reify ]
+287 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-openharmony-arm64
+288 silly reify mark deleted [
+288 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-openharmony-arm64'
+288 silly reify ]
+289 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-openbsd-x64
+290 silly reify mark deleted [
+290 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-openbsd-x64'
+290 silly reify ]
+291 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-linux-x64-musl
+292 silly reify mark deleted [
+292 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-linux-x64-musl'
+292 silly reify ]
+293 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-linux-x64-gnu
+294 silly reify mark deleted [
+294 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+294 silly reify ]
+295 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-linux-s390x-gnu
+296 silly reify mark deleted [
+296 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+296 silly reify ]
+297 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-linux-riscv64-musl
+298 silly reify mark deleted [
+298 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+298 silly reify ]
+299 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-linux-riscv64-gnu
+300 silly reify mark deleted [
+300 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+300 silly reify ]
+301 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-linux-ppc64-musl
+302 silly reify mark deleted [
+302 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+302 silly reify ]
+303 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-linux-ppc64-gnu
+304 silly reify mark deleted [
+304 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+304 silly reify ]
+305 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-linux-loong64-musl
+306 silly reify mark deleted [
+306 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+306 silly reify ]
+307 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-linux-loong64-gnu
+308 silly reify mark deleted [
+308 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+308 silly reify ]
+309 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-linux-arm64-musl
+310 silly reify mark deleted [
+310 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+310 silly reify ]
+311 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-linux-arm64-gnu
+312 silly reify mark deleted [
+312 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+312 silly reify ]
+313 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-linux-arm-musleabihf
+314 silly reify mark deleted [
+314 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+314 silly reify ]
+315 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-linux-arm-gnueabihf
+316 silly reify mark deleted [
+316 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+316 silly reify ]
+317 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-freebsd-x64
+318 silly reify mark deleted [
+318 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-freebsd-x64'
+318 silly reify ]
+319 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-freebsd-arm64
+320 silly reify mark deleted [
+320 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-freebsd-arm64'
+320 silly reify ]
+321 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-darwin-x64
+322 silly reify mark deleted [
+322 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-darwin-x64'
+322 silly reify ]
+323 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-darwin-arm64
+324 silly reify mark deleted [
+324 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-darwin-arm64'
+324 silly reify ]
+325 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-android-arm64
+326 silly reify mark deleted [
+326 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-android-arm64'
+326 silly reify ]
+327 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@rollup\rollup-android-arm-eabi
+328 silly reify mark deleted [
+328 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@rollup\\rollup-android-arm-eabi'
+328 silly reify ]
+329 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\win32-ia32
+330 silly reify mark deleted [
+330 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\win32-ia32'
+330 silly reify ]
+331 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\win32-arm64
+332 silly reify mark deleted [
+332 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\win32-arm64'
+332 silly reify ]
+333 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\sunos-x64
+334 silly reify mark deleted [
+334 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\sunos-x64'
+334 silly reify ]
+335 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\openharmony-arm64
+336 silly reify mark deleted [
+336 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\openharmony-arm64'
+336 silly reify ]
+337 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\openbsd-x64
+338 silly reify mark deleted [
+338 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\openbsd-x64'
+338 silly reify ]
+339 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\openbsd-arm64
+340 silly reify mark deleted [
+340 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\openbsd-arm64'
+340 silly reify ]
+341 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\netbsd-x64
+342 silly reify mark deleted [
+342 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\netbsd-x64'
+342 silly reify ]
+343 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\netbsd-arm64
+344 silly reify mark deleted [
+344 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\netbsd-arm64'
+344 silly reify ]
+345 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\linux-x64
+346 silly reify mark deleted [
+346 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\linux-x64'
+346 silly reify ]
+347 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\linux-s390x
+348 silly reify mark deleted [
+348 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\linux-s390x'
+348 silly reify ]
+349 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\linux-riscv64
+350 silly reify mark deleted [
+350 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\linux-riscv64'
+350 silly reify ]
+351 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\linux-ppc64
+352 silly reify mark deleted [
+352 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\linux-ppc64'
+352 silly reify ]
+353 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\linux-mips64el
+354 silly reify mark deleted [
+354 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\linux-mips64el'
+354 silly reify ]
+355 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\linux-loong64
+356 silly reify mark deleted [
+356 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\linux-loong64'
+356 silly reify ]
+357 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\linux-ia32
+358 silly reify mark deleted [
+358 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\linux-ia32'
+358 silly reify ]
+359 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\linux-arm64
+360 silly reify mark deleted [
+360 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\linux-arm64'
+360 silly reify ]
+361 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\linux-arm
+362 silly reify mark deleted [
+362 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\linux-arm'
+362 silly reify ]
+363 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\freebsd-x64
+364 silly reify mark deleted [
+364 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\freebsd-x64'
+364 silly reify ]
+365 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\freebsd-arm64
+366 silly reify mark deleted [
+366 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\freebsd-arm64'
+366 silly reify ]
+367 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\darwin-x64
+368 silly reify mark deleted [
+368 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\darwin-x64'
+368 silly reify ]
+369 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\darwin-arm64
+370 silly reify mark deleted [
+370 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\darwin-arm64'
+370 silly reify ]
+371 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\android-x64
+372 silly reify mark deleted [
+372 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\android-x64'
+372 silly reify ]
+373 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\android-arm64
+374 silly reify mark deleted [
+374 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\android-arm64'
+374 silly reify ]
+375 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\android-arm
+376 silly reify mark deleted [
+376 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\android-arm'
+376 silly reify ]
+377 verbose reify failed optional dependency C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client\node_modules\@esbuild\aix-ppc64
+378 silly reify mark deleted [
+378 silly reify   'C:\\Users\\anmol\\OneDrive\\Desktop\\Portfolio - Copy\\client\\node_modules\\@esbuild\\aix-ppc64'
+378 silly reify ]
+379 http cache lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz 0ms (cache hit)
+380 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+381 http cache tapable@https://registry.npmjs.org/tapable/-/tapable-2.3.0.tgz 0ms (cache hit)
+382 http cache graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 0ms (cache hit)
+383 http cache @tailwindcss/oxide-win32-x64-msvc@https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.2.2.tgz 0ms (cache hit)
+384 http cache magic-string@https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz 0ms (cache hit)
+385 http cache lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz 0ms (cache hit)
+386 http cache enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.20.1.tgz 0ms (cache hit)
+387 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz 0ms (cache hit)
+388 http cache @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.2.2.tgz 1ms (cache hit)
+389 silly tarball no local data for lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz. Extracting by manifest.
+390 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz. Extracting by manifest.
+391 silly tarball no local data for tapable@https://registry.npmjs.org/tapable/-/tapable-2.3.0.tgz. Extracting by manifest.
+392 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+393 silly tarball no local data for @tailwindcss/oxide-win32-x64-msvc@https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.2.2.tgz. Extracting by manifest.
+394 silly tarball no local data for magic-string@https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz. Extracting by manifest.
+395 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.2.2.tgz 0ms (cache hit)
+396 silly tarball no local data for lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz. Extracting by manifest.
+397 silly tarball no local data for enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.20.1.tgz. Extracting by manifest.
+398 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz. Extracting by manifest.
+399 silly tarball no local data for @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.2.2.tgz. Extracting by manifest.
+400 http cache @tailwindcss/vite@https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.2.2.tgz 0ms (cache hit)
+401 http cache @tailwindcss/node@https://registry.npmjs.org/@tailwindcss/node/-/node-4.2.2.tgz 0ms (cache hit)
+402 silly tarball no local data for tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.2.2.tgz. Extracting by manifest.
+403 silly tarball no local data for @tailwindcss/vite@https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.2.2.tgz. Extracting by manifest.
+404 silly tarball no local data for @tailwindcss/node@https://registry.npmjs.org/@tailwindcss/node/-/node-4.2.2.tgz. Extracting by manifest.
+405 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 601ms
+406 silly audit report {}
+407 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.2.2.tgz 1893ms (cache miss)
+408 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 2069ms (cache miss)
+409 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.2.2.tgz 1966ms (cache miss)
+410 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 2235ms (cache miss)
+411 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/node/-/node-4.2.2.tgz 2408ms (cache miss)
+412 http fetch GET 200 https://registry.npmjs.org/tapable/-/tapable-2.3.0.tgz 3781ms (cache miss)
+413 http fetch GET 200 https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz 3833ms (cache miss)
+414 http fetch GET 200 https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz 3963ms (cache miss)
+415 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.2.2.tgz 4791ms (cache miss)
+416 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz 4848ms (cache miss)
+417 http fetch GET 200 https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.20.1.tgz 5023ms (cache miss)
+418 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.2.2.tgz 5136ms (cache miss)
+419 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz 5838ms (cache miss)
+420 silly ADD node_modules/lightningcss-win32-x64-msvc
+421 silly ADD
+422 silly ADD
+423 silly ADD
+424 silly ADD
+425 silly ADD
+426 silly ADD
+427 silly ADD
+428 silly ADD
+429 silly ADD
+430 silly ADD
+431 silly ADD node_modules/detect-libc
+432 silly ADD node_modules/tapable
+433 silly ADD node_modules/graceful-fs
+434 silly ADD node_modules/@tailwindcss/oxide-win32-x64-msvc
+435 silly ADD
+436 silly ADD
+437 silly ADD
+438 silly ADD
+439 silly ADD
+440 silly ADD
+441 silly ADD
+442 silly ADD
+443 silly ADD
+444 silly ADD
+445 silly ADD
+446 silly ADD node_modules/magic-string
+447 silly ADD node_modules/lightningcss
+448 silly ADD node_modules/jiti
+449 silly ADD node_modules/enhanced-resolve
+450 silly ADD node_modules/@tailwindcss/oxide
+451 silly ADD node_modules/@tailwindcss/node
+452 silly ADD node_modules/tailwindcss
+453 silly ADD node_modules/@tailwindcss/vite
+454 silly ADD
+455 silly ADD
+456 silly ADD
+457 silly ADD
+458 silly ADD
+459 silly ADD
+460 silly ADD
+461 silly ADD
+462 silly ADD
+463 silly ADD
+464 silly ADD
+465 silly ADD
+466 silly ADD
+467 silly ADD
+468 silly ADD
+469 silly ADD
+470 silly ADD
+471 silly ADD
+472 silly ADD
+473 silly ADD
+474 silly ADD
+475 silly ADD
+476 silly ADD
+477 silly ADD
+478 silly ADD
+479 silly ADD
+480 silly ADD
+481 silly ADD
+482 silly ADD
+483 silly ADD
+484 silly ADD
+485 silly ADD
+486 silly ADD
+487 silly ADD
+488 silly ADD
+489 silly ADD
+490 silly ADD
+491 silly ADD
+492 silly ADD
+493 silly ADD
+494 silly ADD
+495 silly ADD
+496 silly ADD
+497 silly ADD
+498 silly ADD
+499 silly ADD
+500 silly ADD
+501 silly ADD
+502 silly ADD
+503 verbose cwd C:\Users\anmol\OneDrive\Desktop\Portfolio - Copy\client
+504 verbose os Windows_NT 10.0.26200
+505 verbose node v22.18.0
+506 verbose npm  v10.9.3
+507 verbose exit 0
+508 info ok
