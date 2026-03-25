@@ -33,6 +33,10 @@ import { fallbackPortfolio } from "./fallbackPortfolio";
 const apiBaseUrl =
   import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api";
 const serverBaseUrl = apiBaseUrl.replace(/\/api\/?$/, "");
+const assetModules = {
+  ...import.meta.glob("./assets/*.{png,jpg,jpeg,webp,svg,pdf}", { eager: true, import: "default" }),
+  ...import.meta.glob("./assets/*.{PNG,JPG,JPEG,WEBP,SVG,PDF}", { eager: true, import: "default" })
+};
 const navItems = ["home", "about", "skills", "projects", "certifications", "education", "contact"];
 const projectFilters = ["All", "ML", "DSA", "MERN"];
 const heroRoles = ["Data Analyst", "MERN Developer", "UI Designer"];
@@ -66,7 +70,20 @@ const iconMap = {
 const resolveAssetUrl = (path) => {
   if (!path) return "";
   if (path.startsWith("http")) return path;
-  return `${serverBaseUrl}${path}`;
+
+  const normalizedPath = path.replace(/\\/g, "/");
+  const fileName = normalizedPath.split("/").pop();
+  const localAssetEntry = Object.entries(assetModules).find(([assetPath]) => assetPath.endsWith(`/${fileName}`));
+
+  if (localAssetEntry) {
+    return localAssetEntry[1];
+  }
+
+  if (normalizedPath.startsWith("/")) {
+    return `${serverBaseUrl}${normalizedPath}`;
+  }
+
+  return normalizedPath;
 };
 
 const SectionHeading = ({ eyebrow, title, text }) => (

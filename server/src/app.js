@@ -22,7 +22,7 @@ app.use("/api/portfolio", portfolioRoutes);
 app.use("/api/messages", messageRoutes);
 app.use(
   "/assets",
-  express.static(path.resolve(__dirname, "../../assets"))
+  express.static(path.resolve(__dirname, "../../client/src/assets"))
 );
 
 app.get("/api/health", (_req, res) => {
